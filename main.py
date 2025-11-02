@@ -28,7 +28,7 @@ import aiofiles
 import sys
 
 # -------------------- 配置区 --------------------
-OPENAI_API_KEY = os.environ.get("sk-738a8fb30d6b40b084e2ee8a7afb0a46")  # 请在环境变量里设置
+OPENAI_API_KEY = os.environ.get("YTPE U KEY HERE")  # 请在环境变量里设置
 BASE_URL = "https://api.deepseek.com/"
 HOST = "0.0.0.0"
 PORT = 2222
@@ -462,3 +462,4 @@ if __name__ == "__main__":
         asyncio.run(start_server())
     except (OSError, asyncssh.Error) as exc:
         print("Error starting server:", exc)
+
